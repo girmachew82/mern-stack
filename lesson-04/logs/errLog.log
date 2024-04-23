@@ -42,3 +42,5 @@
 20240423	04:34:21	4a219622-cd41-4fba-8d8a-7428b6cc88bb	SyntaxError 	Expected ',' or '}' after property value in JSON at position 55	POST	/users	undefined
 20240423	04:34:27	e18fe42d-ab30-4258-8890-097b8acc21fa	Error 	Cannot set headers after they are sent to the client	POST	/users	undefined
 20240423	04:58:04	c21334af-3cbb-433f-84a2-12d9030f5cea	CastError 	Cast to ObjectId failed for value "662120c123c175762fcc9e4a222" (type string) at path "_id" for model "User"	GET	/users/662120c123c175762fcc9e4a222	undefined
+20240423	05:21:47	55691fe0-c93e-4f86-b7ba-22ad92270c41	CastError 	Cast to ObjectId failed for value "662120c123c175762fcc9e4a222" (type string) at path "_id" for model "Note"	GET	/notes/662120c123c175762fcc9e4a222	undefined
+20240423	05:25:43	605300f1-ffa4-4c23-8527-776a074ebc57	Error 	Cannot set headers after they are sent to the client	POST	/notes/	undefined

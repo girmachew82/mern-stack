@@ -1,0 +1,50 @@
+20240418	16:30:06	5512b9c8-cb87-4619-a53b-e602cbb9a34b	ReferenceError 	Cannot access 'user' before initialization	POST	/users	undefined
+20240418	16:30:58	ae07ddbe-59de-46d7-9f8d-edd893c6328c	SyntaxError 	Expected ':' after property name in JSON at position 71	POST	/users	undefined
+20240418	16:31:17	793983b6-cce5-4c01-a167-cda34e6e71d6	ReferenceError 	Cannot access 'user' before initialization	POST	/users	undefined
+20240418	16:32:16	607b37c5-ba2d-4c4c-beee-54f81b5705a2	Error 	Cannot set headers after they are sent to the client	POST	/users	undefined
+20240418	16:33:25	ac4c784c-e183-4937-a9fe-5c8be0e01925	Error 	Cannot set headers after they are sent to the client	POST	/users	undefined
+20240418	16:36:18	b5a22c78-99d3-4869-a9d0-4477b639fed7	Error 	Cannot set headers after they are sent to the client	POST	/users	undefined
+20240418	16:36:25	6c03cb8a-ae32-4705-8696-5b30db9ecba4	Error 	Cannot set headers after they are sent to the client	POST	/users	undefined
+20240418	16:36:37	408f9d5c-c3f6-4e2a-856d-91d1f266f910	Error 	Cannot set headers after they are sent to the client	POST	/users	undefined
+20240418	16:36:42	1384d291-a97b-4f8c-a88a-ab05d940cbf2	Error 	Cannot set headers after they are sent to the client	POST	/users	undefined
+20240418	16:36:45	2285b589-ea96-4f8c-8681-8214b40b6fef	Error 	Cannot set headers after they are sent to the client	POST	/users	undefined
+20240422	21:16:30	4be507c0-c5f4-41ad-a07a-8b1cc4e835cf	SyntaxError 	Bad control character in string literal in JSON at position 39	POST	/users	undefined
+20240422	21:16:41	875b9aec-f49a-4086-8d13-75eb74a4f097	Error 	data must be a string or Buffer and salt must either be a salt string or a number of rounds	POST	/users	undefined
+20240422	21:17:12	27d22dad-3481-4724-a54f-31f602eccbac	Error 	Cannot set headers after they are sent to the client	POST	/users	undefined
+20240422	21:17:47	46fa707b-3ab3-496f-9038-10283464c7d9	Error 	Cannot set headers after they are sent to the client	POST	/users	undefined
+20240422	21:17:59	d24ea318-11d2-4e2d-a0cc-e7a5bf1500ac	Error 	Cannot set headers after they are sent to the client	POST	/users	undefined
+20240422	21:35:10	ce152544-0a51-4b56-bf2a-bb52380837a9	SyntaxError 	Expected double-quoted property name in JSON at position 109	PATCH	/users	undefined
+20240422	21:35:23	2c65622c-db0b-4085-acbc-757f1647049a	SyntaxError 	Expected double-quoted property name in JSON at position 109	GET	/users	undefined
+20240422	21:35:29	c70bd252-4f67-4a23-9081-a2d687b7cf13	SyntaxError 	Expected double-quoted property name in JSON at position 109	GET	/users	undefined
+20240422	21:35:47	2b99cb25-03b5-4a2d-a21d-8fb2a1b6a6ce	SyntaxError 	Expected double-quoted property name in JSON at position 109	GET	/users	undefined
+20240422	21:36:27	d76aea32-ec9b-45b6-83d1-e2eb1bb85962	SyntaxError 	Expected double-quoted property name in JSON at position 109	GET	/users	undefined
+20240422	21:36:55	6317b97c-8c5d-476b-981f-528ab78a1ff1	SyntaxError 	Expected double-quoted property name in JSON at position 109	GET	/users	undefined
+20240422	21:37:13	95c4a487-1086-46cb-a9d5-dda062842871	SyntaxError 	Expected double-quoted property name in JSON at position 109	GET	/users	undefined
+20240422	21:37:14	3ccdd309-9487-422d-992a-ee326958f525	SyntaxError 	Expected double-quoted property name in JSON at position 109	GET	/users	undefined
+20240422	21:37:14	f210ed81-18b0-4c37-979f-f78c54b4c288	SyntaxError 	Expected double-quoted property name in JSON at position 109	GET	/users	undefined
+20240422	21:37:14	d7e5dcd1-cc92-4f1e-9550-c61a3e705061	SyntaxError 	Expected double-quoted property name in JSON at position 109	GET	/users	undefined
+20240422	21:37:36	8caa5bf2-ebe5-4cb7-ad07-078d8622c899	SyntaxError 	Expected double-quoted property name in JSON at position 109	GET	/users	undefined
+20240422	21:44:59	3709cd2d-f50b-45d6-9b2b-4c7a6cd27503	CastError 	Cast to ObjectId failed for value "6626a9d792036a09f7eec8ae5555" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20240422	21:45:06	144d0fe0-3c29-452b-b9a3-c96bc6d83b9f	CastError 	Cast to ObjectId failed for value "6626a9d792036a09f7eec8ae5555" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20240422	21:45:12	e88c65c4-1004-4487-86a0-d8295920051b	CastError 	Cast to ObjectId failed for value "6626a9d792036a09f7eec8ae5555" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20240422	21:48:48	85c70f11-2eea-4643-a793-4172174f4c42	CastError 	Cast to ObjectId failed for value "6626a9d792036a09f7eec8ae5555" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20240422	21:51:04	b441255f-c8da-43cd-9149-06f7e8624f54	CastError 	Cast to ObjectId failed for value "6626a9d792036a09f7eec8ae3" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20240422	21:53:42	73cb00c6-e266-41fb-a3d7-0221a23c7988	ReferenceError 	Cannot access 'id' before initialization	PATCH	/users	undefined
+20240422	21:54:19	5cdca95f-bc15-4611-80d2-d3765b4016f6	CastError 	Cast to ObjectId failed for value "6626a9d792036a09f7eec8ae3" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20240422	21:54:40	bc15f515-b3d0-44bc-80d4-aa9bc26cfc4a	CastError 	Cast to ObjectId failed for value "{ _id: '6626a9d792036a09f7eec8ae3' }" (type Object) at path "_id" for model "User"	PATCH	/users	undefined
+20240422	21:55:24	145ef0c0-4c8e-459c-aa00-49735e8dd16c	CastError 	Cast to ObjectId failed for value "{ _id: '6626a9d792036a09f7eec8ae3' }" (type Object) at path "_id" for model "User"	PATCH	/users	undefined
+20240422	21:56:44	96b7274b-83ba-4d5c-9a36-92cb58cfeb53	CastError 	Cast to ObjectId failed for value "6626a9d792036a09f7eec8ae3" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20240422	21:57:03	6957e2d5-242f-43eb-a3a1-49613f4b57cf	CastError 	Cast to ObjectId failed for value "6626a9d792036a09f7eec8ae3" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20240422	21:59:15	60ba468f-d586-4c0e-b772-ce2b7c545a4b	CastError 	Cast to ObjectId failed for value "6626a9d792036a09f7eec8ae3" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20240422	22:00:18	89e79c9d-b3a5-43e5-b7b1-ce108054d9f9	CastError 	Cast to ObjectId failed for value "6626a9d792036a09f7eec8ae3" (type string) at path "_id" for model "User"	PATCH	/users	undefined
+20240422	22:09:01	16cb1c49-c590-461f-bd27-88bb74c4b812	CastError 	Cast to ObjectId failed for value "6626a9d792036a09f7eec8ae3" (type string) at path "user" for model "Note"	DELETE	/users	undefined
+20240422	22:12:34	4dce8c30-ab0c-4a23-80f1-4f0e5bafcb2b	CastError 	Cast to ObjectId failed for value "6626a9cbfc3f7b26994829153" (type string) at path "user" for model "Note"	DELETE	/users	undefined
+20240423	04:34:21	4a219622-cd41-4fba-8d8a-7428b6cc88bb	SyntaxError 	Expected ',' or '}' after property value in JSON at position 55	POST	/users	undefined
+20240423	04:34:27	e18fe42d-ab30-4258-8890-097b8acc21fa	Error 	Cannot set headers after they are sent to the client	POST	/users	undefined
+20240423	04:58:04	c21334af-3cbb-433f-84a2-12d9030f5cea	CastError 	Cast to ObjectId failed for value "662120c123c175762fcc9e4a222" (type string) at path "_id" for model "User"	GET	/users/662120c123c175762fcc9e4a222	undefined
+20240423	05:21:47	55691fe0-c93e-4f86-b7ba-22ad92270c41	CastError 	Cast to ObjectId failed for value "662120c123c175762fcc9e4a222" (type string) at path "_id" for model "Note"	GET	/notes/662120c123c175762fcc9e4a222	undefined
+20240423	05:25:43	605300f1-ffa4-4c23-8527-776a074ebc57	Error 	Cannot set headers after they are sent to the client	POST	/notes/	undefined
+20240423	07:24:29	10adf990-9d2f-41dc-b6ae-1b48c63279c6	Error 	Cannot set headers after they are sent to the client	POST	/users/	undefined
+20240423	07:24:50	d2728bd9-ef4c-47f1-9d7d-c90056dd5bb2	TypeError 	jwt.sing is not a function	POST	/auths/	undefined
+20240423	07:25:34	267cedba-682a-43c5-aea2-b2c600b108a0	TypeError 	jwt.sing is not a function	POST	/auths/	undefined
+20240423	07:25:37	44620c29-56a2-486e-9ea1-23199a338f71	TypeError 	jwt.sing is not a function	POST	/auths/	undefined

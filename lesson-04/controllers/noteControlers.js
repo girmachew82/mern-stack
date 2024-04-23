@@ -8,7 +8,7 @@ const bcrypt = require('bcrypt')
 // @route GET /notes
 // @access Private
 const getAllNotes = asynchHandler(async (req, res) =>{
-    const notes = await Note.find().exec()
+    const notes = await Note.find().populate('user','email').exec()
     if(!notes){
         return res.status(404).json({
             message:"No note found"
@@ -18,6 +18,7 @@ const getAllNotes = asynchHandler(async (req, res) =>{
         count: notes.length,
         allNotes: notes.map(note =>{
             return{
+            user:note.user,
             id: note._id,
             title: note.title,
             text: note.text,
@@ -52,7 +53,16 @@ const createNewNote = asynchHandler(async (req, res) =>{
     //create and store new note
     const note = await Note.create(noteObject)
     if(note){
-        return res.status(201).json({message:"Note created"})
+        return res.status(201).json({
+            message:"Note created",
+           
+                title:title,
+                text:text,
+                request:{
+                    type:'GET',
+                    url:"127.0.0.1:3003/notes/"  
+                }
+        })
     }else{
         return res.status(400).json({message:"Invalid note data"})
     }
